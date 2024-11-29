@@ -2,6 +2,8 @@
 
 AirlineAPI is a web API developed for flight reservations and ticketing operations. This API provides basic functionalities such as managing flights, purchasing tickets, registering passengers, and checking in for flights. The project is built using the .NET Core framework and stores flight and ticket data in a PostgreSQL database. The API allows users to purchase tickets for flights and check in for those flights.
 
+ER Diagram: https://i.hizliresim.com/jl736ax.png
+
 ## Features
 
 - **Flight Management**: Admins can create, edit, and view flight information.
