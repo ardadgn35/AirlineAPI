@@ -11,6 +11,10 @@ ER Diagram: https://i.hizliresim.com/jl736ax.png
 - **Check-In**: Passengers can check in for their flights after purchasing tickets.
 - **Flight Information Viewing**: Information about available flights and their capacity can be retrieved.
 
+## Security
+
+This project uses JWT (JSON Web Token) authentication to secure the system. Admin users must authenticate to access protected endpoints (like adding flights or querying the flight report). After authentication, the system provides a JWT token, which must be included in the Authorization header as a Bearer token in subsequent requests. The token is validated by the server to ensure the user has the necessary permissions to perform authorized actions.
+
 ## API Usage
 
 The API enables users to easily perform functions such as purchasing tickets and managing passenger operations. Admins can create flights and make tickets available for sale. Passengers can purchase tickets for flights and perform check-ins. The API is designed with a RESTful architecture and supports all basic flight management operations.
